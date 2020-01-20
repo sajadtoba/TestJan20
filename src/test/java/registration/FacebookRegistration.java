@@ -4,24 +4,50 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
 public class FacebookRegistration {
 
+    public WebDriver driver = null;
+
+    @BeforeMethod
+    public void setUp(){
+
+        // in this method the driver is missing for that we created a globalVariable and initialized
+        // Now we need to remove the WebDriver
+
+        System.setProperty("webdriver.chrome.driver","/Users/sajadakbar/Documents/develop/SeleniumJuly2019/facebook/src/main/java/driver/chromedriver");
+        this.driver = new ChromeDriver();
+        this.driver.manage().window().fullscreen();
+        this.driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+    }
+
+
+    //Create to test if we are on the right website or not
 
     @Test
-
     public void testUserCannotRegisterIfEmailFieldIsEmpty() throws Exception {
-        System.setProperty("webdriver.chrome.driver","/Users/sajadakbar/Documents/develop/SeleniumJuly2019/facebook/src/main/java/driver/chromedriver");
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().fullscreen();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//        System.setProperty("webdriver.chrome.driver","/Users/sajadakbar/Documents/develop/SeleniumJuly2019/facebook/src/main/java/driver/chromedriver");
+//        WebDriver driver = new ChromeDriver();
+//        driver.manage().window().fullscreen();
+//        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         String facebookUrl = "https:www.facebook.com";
         driver.get(facebookUrl);
         //Thread.sleep(3000);
+        System.out.println(driver.getTitle());
+       // Assert.assertEquals(driver.getTitle(),"Facebook - Log In or Sing Up");
+
+        //driver.findElement(By.xpath("//*[@id=\'u_0_9\']")).click(); //.........Worked
+
+        //Assert.assertEquals(driver.getTitle(),//*[@id="blueBarDOMInspector"]/div/div/div/div[1]/h1/a
+         Assert.assertEquals(driver.getTitle(), "Facebook - Log In or Sign Up");
 
 
 
@@ -50,8 +76,12 @@ public class FacebookRegistration {
         driver.findElement(By.name("websubmit")).click();
 
         // It runs good untill now
-        driver.close();
+        //driver.close();
+    }
 
+    @AfterMethod
+    public void tearDown(){
+        this.driver.close();
     }
 
 }

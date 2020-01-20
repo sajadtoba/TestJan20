@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c113d17e-d792-45f3-92c2-7b9afb96f382" name="Default Changelist" comment="" />
+    <list default="true" id="c113d17e-d792-45f3-92c2-7b9afb96f382" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/registration/FacebookRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/registration/FacebookRegistration.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +30,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WdcmqBvzyBEV85gus3IN4XWE9S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,7 +49,24 @@
       <recent name="$PROJECT_DIR$/src/main/java/driver" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.FacebookRegistration.testUserCannotRegisterIfEmailFieldIsEmpty">
+    <configuration name="FacebookRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="facebook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="registration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="registration" />
+      <option name="MAIN_CLASS_NAME" value="registration.FacebookRegistration" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FacebookRegistration.testUserCannotRegisterIfEmailFieldIsEmpty" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="facebook" />
       <extension name="coverage">
@@ -63,6 +88,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.FacebookRegistration.testUserCannotRegisterIfEmailFieldIsEmpty" />
+        <item itemvalue="TestNG.FacebookRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -96,11 +122,11 @@
       <screen x="0" y="23" width="2048" height="1177" />
     </state>
     <state x="502" y="277" key="#Project_Structure/0.23.2048.1177@0.23.2048.1177" timestamp="1579485181574" />
-    <state width="1651" height="328" key="GridCell.Tab.0.bottom" timestamp="1579549646241">
-      <screen x="0" y="23" width="2048" height="1202" />
+    <state width="1651" height="328" key="GridCell.Tab.0.bottom" timestamp="1579563779342">
+      <screen x="0" y="23" width="2048" height="1177" />
     </state>
     <state width="2006" height="329" key="GridCell.Tab.0.bottom/0.0.2048.1280@0.0.2048.1280" timestamp="1579493748449" />
-    <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1177@0.23.2048.1177" timestamp="1579526715438" />
+    <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1177@0.23.2048.1177" timestamp="1579563779342" />
     <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1178@0.23.2048.1178" timestamp="1579528468555" />
     <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1180@0.23.2048.1180" timestamp="1579531941168" />
     <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1182@0.23.2048.1182" timestamp="1579532116171" />
@@ -115,12 +141,12 @@
     <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1195@0.23.2048.1195" timestamp="1579533832109" />
     <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1196@0.23.2048.1196" timestamp="1579548703471" />
     <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1201@0.23.2048.1201" timestamp="1579548746347" />
-    <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1202@0.23.2048.1202" timestamp="1579549646241" />
-    <state width="1651" height="328" key="GridCell.Tab.0.center" timestamp="1579549646240">
-      <screen x="0" y="23" width="2048" height="1202" />
+    <state width="1651" height="328" key="GridCell.Tab.0.bottom/0.23.2048.1202@0.23.2048.1202" timestamp="1579550895982" />
+    <state width="1651" height="328" key="GridCell.Tab.0.center" timestamp="1579563779342">
+      <screen x="0" y="23" width="2048" height="1177" />
     </state>
     <state width="2006" height="329" key="GridCell.Tab.0.center/0.0.2048.1280@0.0.2048.1280" timestamp="1579493748448" />
-    <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1177@0.23.2048.1177" timestamp="1579526715437" />
+    <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1177@0.23.2048.1177" timestamp="1579563779342" />
     <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1178@0.23.2048.1178" timestamp="1579528468555" />
     <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1180@0.23.2048.1180" timestamp="1579531941167" />
     <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1182@0.23.2048.1182" timestamp="1579532116171" />
@@ -135,12 +161,12 @@
     <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1195@0.23.2048.1195" timestamp="1579533832108" />
     <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1196@0.23.2048.1196" timestamp="1579548703471" />
     <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1201@0.23.2048.1201" timestamp="1579548746346" />
-    <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1202@0.23.2048.1202" timestamp="1579549646240" />
-    <state width="1651" height="328" key="GridCell.Tab.0.left" timestamp="1579549646239">
-      <screen x="0" y="23" width="2048" height="1202" />
+    <state width="1651" height="328" key="GridCell.Tab.0.center/0.23.2048.1202@0.23.2048.1202" timestamp="1579550895981" />
+    <state width="1651" height="328" key="GridCell.Tab.0.left" timestamp="1579563779342">
+      <screen x="0" y="23" width="2048" height="1177" />
     </state>
     <state width="2006" height="329" key="GridCell.Tab.0.left/0.0.2048.1280@0.0.2048.1280" timestamp="1579493748447" />
-    <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1177@0.23.2048.1177" timestamp="1579526715436" />
+    <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1177@0.23.2048.1177" timestamp="1579563779342" />
     <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1178@0.23.2048.1178" timestamp="1579528468554" />
     <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1180@0.23.2048.1180" timestamp="1579531941166" />
     <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1182@0.23.2048.1182" timestamp="1579532116170" />
@@ -155,12 +181,12 @@
     <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1195@0.23.2048.1195" timestamp="1579533832107" />
     <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1196@0.23.2048.1196" timestamp="1579548703470" />
     <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1201@0.23.2048.1201" timestamp="1579548746346" />
-    <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1202@0.23.2048.1202" timestamp="1579549646239" />
-    <state width="1651" height="328" key="GridCell.Tab.0.right" timestamp="1579549646240">
-      <screen x="0" y="23" width="2048" height="1202" />
+    <state width="1651" height="328" key="GridCell.Tab.0.left/0.23.2048.1202@0.23.2048.1202" timestamp="1579550895980" />
+    <state width="1651" height="328" key="GridCell.Tab.0.right" timestamp="1579563779342">
+      <screen x="0" y="23" width="2048" height="1177" />
     </state>
     <state width="2006" height="329" key="GridCell.Tab.0.right/0.0.2048.1280@0.0.2048.1280" timestamp="1579493748449" />
-    <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1177@0.23.2048.1177" timestamp="1579526715437" />
+    <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1177@0.23.2048.1177" timestamp="1579563779342" />
     <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1178@0.23.2048.1178" timestamp="1579528468555" />
     <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1180@0.23.2048.1180" timestamp="1579531941167" />
     <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1182@0.23.2048.1182" timestamp="1579532116171" />
@@ -175,7 +201,7 @@
     <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1195@0.23.2048.1195" timestamp="1579533832108" />
     <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1196@0.23.2048.1196" timestamp="1579548703471" />
     <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1201@0.23.2048.1201" timestamp="1579548746346" />
-    <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1202@0.23.2048.1202" timestamp="1579549646240" />
+    <state width="1651" height="328" key="GridCell.Tab.0.right/0.23.2048.1202@0.23.2048.1202" timestamp="1579550895981" />
     <state x="404" y="250" key="SettingsEditor" timestamp="1579526204908">
       <screen x="0" y="23" width="2048" height="1177" />
     </state>
